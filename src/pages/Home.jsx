@@ -7,7 +7,7 @@ export default function Home() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const res = await axios.get("http://localhost:4000/api/movies/trending-with-genres");
+        const res = await axios.get("https://moviemate-server.onrender.com/api/movies/trending-with-genres");
         setMovies(res.data);
       } catch (err) {
         console.error("Error fetching movies:", err.message);

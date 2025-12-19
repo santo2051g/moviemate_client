@@ -19,7 +19,7 @@ const Signup = () => {
 
     try {
       // ✅ send signup data to backend
-      const res = await axios.post("http://localhost:4000/api/auth/signup", {
+      const res = await axios.post("https://moviemate-server.onrender.com/api/auth/signup", {
         name,
         email,
         password

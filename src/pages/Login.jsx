@@ -18,7 +18,7 @@ const Login = () => {
 
     try {
       // ✅ call backend login API
-      const res = await axios.post("http://localhost:4000/api/auth/login", {
+      const res = await axios.post("https://moviemate-server.onrender.com/api/auth/login", {
         email,
         password
       });
