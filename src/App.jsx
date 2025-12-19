@@ -1,10 +1,9 @@
 import { Routes, Route } from "react-router-dom";
 import Header from "./Components/Header.jsx";
 import About from "./pages/About.jsx";
-
 import Home from "./pages/Home.jsx";
 import Login from "./pages/Login.jsx";
-import Signup from "./pages/Signup.jsx";
+import Signup from "./pages/signup.jsx";
 import MovieDetail from "./pages/MovieDetail.jsx";
 import Watchlist from "./pages/WatchList.jsx";
 
