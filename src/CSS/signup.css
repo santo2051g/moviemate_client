@@ -1,0 +1,131 @@
+.signup-body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url('../assets/image.png'), url('../assets/image.png');
+  background-size: 150%;
+  background-repeat: no-repeat;
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: crisp-edges;
+  animation: moveLeftRight 40s linear infinite;
+}
+
+@keyframes moveLeftRight {
+  0% {
+    background-position: 0% center, 200% center;
+  }
+  50% {
+    background-position: -100% center, 100% center;
+  }
+  100% {
+    background-position: -200% center, 0% center;
+  }
+}
+
+.signup {
+  margin-left: 800px;
+  background: linear-gradient(90deg, #1a0f1f 0%, #0d0b12 30%, #000000 70%);
+  padding: 2rem;
+  border-radius: 70px 0px 0px 70px;
+  box-shadow: grey;
+  height: 100vh;
+  padding-top: 100px;
+}
+
+.logo-image {
+  width: auto;
+  height: auto;
+  margin: 0 auto 1rem;
+  display: block;
+  object-fit: contain;
+}
+
+.signup h1 {
+  color: rgb(255, 255, 255);
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 1.5rem;
+  padding-top: 20px;
+}
+
+.data-signup {
+  color: rgb(245, 243, 243);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  max-width: 320px;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+
+.data-label-signup {
+ color:white;
+  display: block;
+  font-size: 0.875rem;
+  font-weight: 500;
+  margin-bottom: 0.25rem;
+}
+
+.data-signup input {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #f8ec02;
+  border-radius: 0.25rem;
+  outline: none;
+  font-size: 0.875rem;
+}
+
+.data-signup label {
+  width: 100%;
+}
+
+
+
+.button {
+  width: 100%;
+  max-width: 320px;
+  background-color: red;
+  color: white;
+  padding: 0.6rem;
+  border-radius: 0.25rem;
+  border: none;
+  margin: 1rem auto 0;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  display: block;
+  font-size: 0.875rem;
+}
+
+.button:hover {
+  color:red;
+  border:1px solid red;
+  background-color:rgb(241, 235, 235);
+}
+
+.login p {
+  text-align: center;
+  margin-top: 1rem;
+  
+}
+.nav-login{
+    text-align: center;
+    color: red;
+    font-family: cursive;
+    font-style: italic;
+    font-weight: bold;
+    list-style:none;
+    cursor: pointer;
+}
+
+.signup-link {
+  color: #2563eb;
+  text-decoration: none;
+  margin-left: 0.25rem;
+}
+
+.signup-link:hover {
+  text-decoration: underline;
+}
